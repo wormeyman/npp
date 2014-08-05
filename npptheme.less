@@ -1,8 +1,7 @@
 /**
-* Theme Notepad++ (c) 2014 Eric Johnson.
-* Licensed under MIT
-*/
-
+ * Theme Notepad++ (c) 2014 Eric Johnson.
+ * Licensed under MIT
+ */
 @background: #fff;
 @foreground: #000;
 @comment: #008000;
@@ -16,52 +15,40 @@
     background-color: @background;
     color: @foreground;
 }
-.cm-comment {
-    color: @comment;
-}
-.cm-variable-2,
-.cm-tag {
-    color: @nppblue;
-}
-.cm-attribute{
-    color: @nppred;
-}
-.cm-string {
-    color: @npppurple;
-}
-.cm-operator,
-.cm-atom {
-    color: #000;
-}
-.cm-number {
-    color: @nppred;
-}
-.cm-string {
-    color: @nppgrey;
-}
-.cm-keyword {
-    color: @nppdarkblue;
-}
+
+.cm-comment { color: @comment; }
+
+.cm-variable-2, .cm-tag { color: @nppblue; }
+
+.cm-attribute { color: @nppred; }
+
+.cm-string { color: @npppurple; }
+
+.cm-operator, .cm-atom { color: @foreground; }
+
+.cm-number { color: @nppred; }
+
+.cm-string { color: @nppgrey; }
+
+.cm-keyword { color: @nppdarkblue; }
+
 /* Matching Tags */
-.CodeMirror-matchingtag {
-    background: fade(@npppurple, 20%);
-}
+.CodeMirror-matchingtag { background: fade(@npppurple, 20%); }
+
 .CodeMirror-overwrite .CodeMirror-cursor {
     border-left: none !important;
     border-bottom: 3px solid @npppurple;
 }
-.CodeMirror .CodeMirror-activeline-background {
-    background: fade(@nppblue, 10%) !important;
-}
-&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
-    box-shadow: inset 15px 0 0 0 #000;
-}
+
+.CodeMirror .CodeMirror-activeline-background { background: fade(@nppblue, 10%) !important; }
+
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background { box-shadow: inset 15px 0 0 0 #000; }
+
 .CodeMirror-focused .CodeMirror-activeline {
     .CodeMirror-gutter-elt {
         background: transparent;
         color: #999;
     }
-    .inline-widget .CodeMirror-gutter-elt {
-        color: #999;
-    }
+
+    .inline-widget .CodeMirror-gutter-elt { color: #999; }
 }
