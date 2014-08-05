@@ -4,11 +4,30 @@
 */
 
 @background: #fff;
-@current-line: #8000ff;
 @foreground: #000;
 @comment: #008000;
-
+@nppblue: #0000ff;
+@npppurple: #8000ff;
+@nppred: #ff0000;
 .CodeMirror .CodeMirror-scroll {
     background-color: @background;
     color: @foreground;
 }
+.cm-comment {
+    color: @comment;
+}
+.cm-variable-2,
+.cm-tag {
+    color: @nppblue;
+}
+.cm-attribute{
+    color: @nppred;
+}
+.cm-string {
+    color: @npppurple;
+}
+
+.cm-atom {
+    color: #000;
+}
+
