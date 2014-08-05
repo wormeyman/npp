@@ -3,7 +3,7 @@
     "name": "npp-theme",
     "description": "Light Theme from the other popular open source code editor",
     "version": "0.0.1",
-"author": "Eric Johnson <wormeyman@gmail.com>",
+    "author": "Eric Johnson <wormeyman@gmail.com>",
     "homepage": "https://github.com/wormeyman/npp",
     "repository": {
         "type": "git",
@@ -13,7 +13,7 @@
         "brackets": ">=0.42.0"
     },
     "theme": {
-        "file": "npptheme.less",
+        "file": "npptheme.less"
     },
     "screenshot": "screenshot.png"
 }
