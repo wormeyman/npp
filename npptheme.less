@@ -46,3 +46,22 @@
 .CodeMirror-matchingtag {
     background: fade(@npppurple, 20%);
 }
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 3px solid @npppurple;
+}
+.CodeMirror .CodeMirror-activeline-background {
+    background: fade(@nppblue, 10%) !important;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: transparent;
+        color: #999;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #999;
+    }
+}
