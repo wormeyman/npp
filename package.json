@@ -1,0 +1,19 @@
+{
+    "title": "Notepad++ Theme ",
+    "name": "npp-theme",
+    "description": "Light Theme from the other popular open source code editor",
+    "version": "0.0.1",
+"author": "Eric Johnson <wormeyman@gmail.com>",
+    "homepage": "https://github.com/wormeyman/npp",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/wormeyman/npp.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "npptheme.less",
+    },
+    "screenshot": "screenshot.png"
+}
